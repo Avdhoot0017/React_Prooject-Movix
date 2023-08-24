@@ -6,7 +6,7 @@ import useFetch from "../../../hooks/useFetch";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import Img from "../../lazyloadcompo/img";
-import ContentWrapper from "../../contentWrapper/ContentWrapper";
+import ContentWrapper from "../../ContentWrapper/Contentwrapper";
 
 const HeroBanner = () => {
   const [background, setBackground] = useState("");
