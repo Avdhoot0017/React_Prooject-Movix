@@ -140,6 +140,9 @@ const Header = () => {
               placeholder="Search For TV_Show or Movie..."
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchQueryHandler}
+              onClick={searchQueryHandler}
+              
+              
             />
 
             <VscChromeClose  

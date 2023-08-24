@@ -31,6 +31,16 @@ const HeroBanner = () => {
     }
   };
 
+  const serchresultByserch = ()=>
+  {
+    if(query.length > 0)
+    {
+      navigate(`/search/${query}`);
+
+    }
+
+  }
+
   return (
     <div className="herobanner">
       {!loading && (
@@ -56,8 +66,9 @@ const HeroBanner = () => {
               placeholder="Search For TV_Show or Movie..."
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchQueryHandler}
+             
             />
-            <button>Search</button>
+            <button  onClick={serchresultByserch}>Search</button>
           </div>
         </div>
       </ContentWrapper>
