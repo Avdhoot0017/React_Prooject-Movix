@@ -22,12 +22,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                Avdhoot's movie recommendation project exemplifies a skillful blend of React, Vite, Redux, and APIs. With an intuitive interface crafted using React, swift loading times from Vite, and efficient state management via Redux, the application ensures seamless user experiences. Avdhoot's adept utilization of APIs further enhances the project's functionality, underscoring their proficiency in modern web development technologies. This showcase underscores Avdhoot's ability to create responsive, high-performing web applications while harnessing a diverse set of tools.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
